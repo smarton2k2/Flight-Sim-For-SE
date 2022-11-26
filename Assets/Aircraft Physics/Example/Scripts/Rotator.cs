@@ -9,3 +9,5 @@ public class Rotator : MonoBehaviour
         transform.localRotation *= Quaternion.AngleAxis(speed * Time.deltaTime , Vector3.up);
     }
 }
+
+// Path: Rotator.cs

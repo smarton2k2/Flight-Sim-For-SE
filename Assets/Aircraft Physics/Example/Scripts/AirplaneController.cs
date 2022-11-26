@@ -4,6 +4,7 @@ using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class AirplaneController : MonoBehaviour
 {
     [SerializeField]
@@ -22,6 +23,7 @@ public class AirplaneController : MonoBehaviour
     float yaw;
     float roll;
     float flap;
+
 
     float thrustPercent;
     bool brake = false;

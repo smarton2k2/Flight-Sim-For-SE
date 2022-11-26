@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+
 public struct BiVector3
 {
     public Vector3 p;
