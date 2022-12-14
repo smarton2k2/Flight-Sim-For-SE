@@ -26,7 +26,6 @@ public class AirplaneController : MonoBehaviour
 
 
     float thrustPercent;
-    bool brake = false;
     bool permabrake = false;
 
     AircraftPhysics aircraftPhysics;

@@ -50,7 +50,7 @@ public class AeroSurface : MonoBehaviour
         SetFlapAngle(0);
         initialized = true;
     }
-
+    //Setting Flap Angle
     public void SetFlapAngle(float angle)
     {
         if (!gameObject.activeInHierarchy || config == null) return;
